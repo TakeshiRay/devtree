@@ -1,0 +1,23 @@
+{
+  "name": "curso-udemy",
+  "version": "1.0.0",
+  "description": "Primer proyecto con express y typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Manuel Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
